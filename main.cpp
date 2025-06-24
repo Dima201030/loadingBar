@@ -39,7 +39,7 @@ void loading(int GHz, int columnLenght)
             std::cout << '\n';
         loadingArr[0][i + 1] = true;
         long j = 0;
-        while (j < (GHz * 1000000)) ++j; // тк у меня моник на 75 герц ( плавнее будет загружаться )
+        while (j < (GHz * 1000000)) ++j;
         if (i == columnLenght)
         {
             return;
